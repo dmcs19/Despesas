@@ -43,3 +43,25 @@
      npm start
      ```
    - O frontend estará disponível em `http://localhost:3000`.
+   - 
+---
+
+### Prints da Aplicação
+
+Aqui estão algumas capturas de tela que demonstram a aplicação em funcionamento:
+
+- **Tela de Login:**
+
+  ![Tela de Login](./images/login.png)
+
+- **Tela do Dashboard:**
+
+  ![Tela do Dashboard](./images/dashboard.png)
+
+- **Tela de Criação de Despesa:**
+
+  ![Tela de Criação de Despesa](./images/criar_despesa.png)
+
+- **Gráfico de Despesas:**
+
+  ![Gráfico de Despesas](./images/grafico.png)
