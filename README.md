@@ -60,7 +60,7 @@ Aqui estão algumas capturas de tela que demonstram a aplicação em funcionamen
 
 - **Tela de Criação de Despesa:**
 
-  ![Tela de Criação de Despesa](./images/criar_despesa.png)
+  ![Tela de Criação de Despesa](./images/cria_despesa.png)
 
 - **Gráfico de Despesas:**
 
