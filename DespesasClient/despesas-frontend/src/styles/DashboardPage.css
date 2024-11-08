@@ -1,0 +1,232 @@
+/* Main Dashboard Container */
+.dashboard-container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #d62828;
+}
+
+/* Table Styles */
+.despesa-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.despesa-table th,
+.despesa-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.despesa-table th {
+    background-color: #f2f2f2;
+}
+
+/* Create Expense Button */
+.create-expense-button {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.create-expense-button:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+/* View Graph Button */
+.view-graph-button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.view-graph-button:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+/* Edit Button Style */
+.edit-button {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-button:hover {
+    background-color: #e0a800; /* Darker Yellow */
+}
+
+/* Delete Button Style */
+.delete-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker Red */
+}
+
+/* Popup Background */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Popup Content */
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.popup-content h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.popup-content input,
+.popup-content select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Popup Buttons */
+.popup-content button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 48%;
+    margin: 10px 2%;
+}
+
+.popup-content button:first-child {
+    background-color: #28a745; /* Green for Save/Update */
+    color: white;
+}
+
+.popup-content button:first-child:hover {
+    background-color: #218838;
+}
+
+.popup-content button:last-child {
+    background-color: #e63946; /* Red for Cancel */
+    color: white;
+}
+
+.popup-content button:last-child:hover {
+    background-color: #d62828;
+}
+
+/* Confirmation Popup Buttons */
+.popup-content .delete-confirm-button {
+    background-color: #dc3545; /* Red for Delete Confirmation */
+    color: white;
+}
+
+.popup-content .delete-confirm-button:hover {
+    background-color: #c82333;
+}
+
+.popup-content .cancel-button {
+    background-color: #6c757d; /* Gray for Cancel */
+    color: white;
+}
+
+.popup-content .cancel-button:hover {
+    background-color: #5a6268;
+}
+
+#sim {
+    background-color: #c82333;
+    color: white;
+}
+
+#nao {
+    background-color: #218838;
+}
+
+/* Chart Popup Button */
+.chart-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.chart-button:hover {
+    background-color: #0056b3;
+}
+
+/* Chart Popup Styling */
+.popup-content h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.popup-content .chart-container {
+    margin: 0 auto;
+    max-width: 200px;
+}
