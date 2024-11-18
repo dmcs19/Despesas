@@ -11,7 +11,7 @@
      ```
 
 2. **Configurar a Base de Dados**
-   - Crie uma base de dados PostgreSQL.
+   - Crie uma base de dados SQLite.
    - Altere as configurações de conexão no arquivo `appsettings.json` do backend para refletir as credenciais da sua base de dados.
 
 3. **Executar o Backend**
